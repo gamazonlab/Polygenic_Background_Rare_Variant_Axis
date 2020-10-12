@@ -4,7 +4,7 @@ Although studies of the genetic basis of complex traits have demonstrated a subs
 
 ## Reference
 
-Trait-associated variation in context: Characterizing the relationship between large effect variants and polygenic background. Dan Zhou, Dongmei Yu, Jeremiah M. Scharf, Carol A. Mathews, Lauren McGrath, Edwin Cook, S Hong Lee, Naomi Wray, Lea K. Davis<sup>§</sup>, Eric R. Gamazon<sup>§</sup>
+Trait-associated variation in context: Characterizing the relationship between large effect variants and polygenic background. Dan Zhou, Dongmei Yu, Jeremiah M. Scharf, Carol A. Mathews, Lauren McGrath, Edwin Cook, S Hong Lee, Lea K. Davis<sup>§</sup>, Eric R. Gamazon<sup>§</sup>
 
 <sup>§</sup>Co-corresponding authors:  Eric R. Gamazon and Lea K. Davis
 
