@@ -1,4 +1,4 @@
-# Polygenic_Background_Rare_Variant_Axis  
+# Polygenic_Background_Rare_Variant_Axis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rvinas/GAIN-GTEx/blob/master/LICENSE) 
 
 ## Reference
 
