@@ -11,7 +11,9 @@ Contextualizing genetic risk score for disease screening and rare variant discov
 For questions, please feel free to contact
 
 Dan Zhou zdangm@gmail.com;
-Eric R. Gamazon ericgamazon@gmail.com
+Eric R. Gamazon ericgamazon@gmail.com  
+
+## Description
 
 We provide a set of scripts for simulating, estimating, and visualizing the relationship between common, small effect variant polygenic background (cSEV-PB) and large effect variant (LEV). Details can be found in our manuscript ‘Contextualizing genetic risk score for disease screening and rare variant discovery’.
 
