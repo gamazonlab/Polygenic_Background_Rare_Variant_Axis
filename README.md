@@ -17,7 +17,9 @@ Eric R. Gamazon ericgamazon@gmail.com
 
 We provide a set of scripts for simulating, estimating, and visualizing the relationship between common, small effect variant Polygenic Burden (PB) and Large-Effect Variant (LEV). Details can be found in our manuscript ‘Contextualizing genetic risk score for disease screening and rare variant discovery’.
 
-Software dependency: R packages ggplot2 and optparse will be needed for the simulations and the reproduction of the figures. Both plink1.9 and plink2 are needed for PB-LEV simulation. Plink1.9 is needed for genotype simulation (plink2 does not support it anymore) and plink2 is needed for generating polygenic score on standardized genotype data (plink1.9 don’t have the option).
+## Software dependency
+
+R packages ggplot2 and optparse will be needed for the simulations and the reproduction of the figures. Both plink1.9 and plink2 are needed for PB-LEV simulation. Plink1.9 is needed for genotype simulation (plink2 does not support it anymore) and plink2 is needed for generating polygenic score on standardized genotype data (plink1.9 don’t have the option).
 
 
 ## PB-LEV-SCAN_1.0.r (the main script)
