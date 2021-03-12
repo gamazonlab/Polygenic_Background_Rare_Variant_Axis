@@ -60,6 +60,7 @@ R packages ggplot2 and optparse will be needed for the simulations and the repro
 --h2_LEV heritability of Large-Effect Variant(s). Please only provide the estimated heritability (h2_LEV) or the odds ratio (OR_LEV). If both of them are provided, OR_LEV will be ignored. [default = 0.01]
 
 --OR_LEV odds ratio of Large-Effect Variant(s). Please only provide the estimated heritability (h2_LEV) or the odds ratio (OR_LEV). If both of them are provided, OR_LEV will be ignored. [optional, no default value]
+
 --prevalence the estimated prevalence of disease/traits among general population [default = 0.01]
 
 --pi0 the proportion of non-causal variants [default = 0]
