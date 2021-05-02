@@ -15,7 +15,7 @@ Eric R. Gamazon ericgamazon@gmail.com
 
 ## Description
 
-We provide a set of scripts for simulating, estimating, and visualizing the relationship between common, small effect variant Polygenic Burden (PB) and Large-Effect Variant (LEV). We present a summary statistics based methodology that utilizes the relationship between PB and LEV among cases for some methodologically-and clinically-relevant applications. Details can be found in our manuscript ‘Contextualizing genetic risk score for disease screening and rare variant discovery’.
+We provide a set of scripts for simulating, estimating, and visualizing the relationship between common, small effect variant Polygenic Burden (PB) and Large-Effect Variant (LEV). We present a mathematical and summary statistics based framework that utilizes the relationship between PB and LEV among cases for some methodologically-and clinically-relevant applications. Details can be found in our manuscript ‘Contextualizing genetic risk score for disease screening and rare variant discovery’.
 
 ## Software dependency
 
