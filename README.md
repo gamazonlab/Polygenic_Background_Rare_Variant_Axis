@@ -1,5 +1,8 @@
 # Polygenic_Background_Rare_Variant_Axis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/gamazonlab/Polygenic_Background_Rare_Variant_Axis/blob/master/LICENSE) 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4767933.svg)](https://doi.org/10.5281/zenodo.4767933)
+
+
 ## Reference
 
 Contextualizing genetic risk score for disease screening and rare variant discovery. Dan Zhou, Dongmei Yu, Jeremiah M. Scharf, Carol A. Mathews, Lauren McGrath, Edwin Cook, S Hong Lee, Lea K. Davis<sup>§</sup>, Eric R. Gamazon<sup>§</sup>
