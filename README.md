@@ -43,9 +43,9 @@ R packages ggplot2 and optparse will be needed for the simulations and the repro
 --out_prefix prefix for result files. Result files will be named as ${out_folder}/${out_prefix}_*.* [required]
 ### #model
 
---genetic_architecture the assumed genetic architecture for common variants. Options including (1) “polygenic” which denotes highly polygenic (almost infinitesimal) architecture, (2) “NegativeSelection” denotes architecture consistent with negative selection, and (3) “LDAK” denotes LD-adjusted kinship. See Methods for details. [default = polygenic] 
+--genetic_architecture the assumed genetic architecture for common variants. Options include (1) “polygenic” which denotes a highly polygenic (almost infinitesimal) architecture, (2) “NegativeSelection” denotes an architecture consistent with negative selection, and (3) “LDAK” denotes LD-adjusted kinship. See Methods for details. [default = polygenic] 
 
---disease_model the assumed disease model. Options including: (1) “LTM” which shorts for liability-threshold model, and (2) “logit” denotes logit risk model. See Methods for details. [default = LTM]
+--disease_model the assumed disease model. Options include: (1) “LTM” which is short for liability-threshold model, and (2) “logit” denotes the logit risk model. See Methods for details. [default = LTM]
 
 ### #parameter
 
@@ -61,7 +61,7 @@ R packages ggplot2 and optparse will be needed for the simulations and the repro
 
 --OR_LEV odds ratio of Large-Effect Variant(s). Please only provide the estimated heritability (h2_LEV) or the odds ratio (OR_LEV). If both of them are provided, OR_LEV will be ignored. [optional, no default value]
 
---prevalence the estimated prevalence of disease/traits among general population [default = 0.01]
+--prevalence the estimated prevalence of disease/traits in the general population [default = 0.01]
 
 --pi0 the proportion of non-causal variants [default = 0]
 
@@ -78,7 +78,7 @@ ${out_path}/${out_prefix}_simu.txt includes raw simulation results.
 
 n_simu: simulation id
 
-wilcox_p: P-value of two-sample Wilcoxon test for, among cases, whether the polygenic risk for LEV carriers is lower than non-carriers (one-side test).
+wilcox_p: P-value of two-sample Wilcoxon test testing, among cases, whether the polygenic risk for LEV carriers is lower than non-carriers (one-side test).
 
 p1-p10: the estimated number of LEV carriers per 1000 cases from group 1 to 10. The 10 groups are equally sized based on the polygenic burden (PB). p1 and p10 denote the group with the lowest and the highest PB, respectively.
 
@@ -87,9 +87,9 @@ ${out_path}/${out_prefix}.txt includes summarized simulation results. It reports
 ${out_path}/${out_prefix}_LEV_carriers_per_1000_cases_comparison_figure.pdf is a figure visualizing the distribution of polygenic risk and the number of LEV carriers per 1000 cases. The mean ± 1sd of the number of LEV carriers per 1000 cases is displayed in blue circles and bars.
 
 ### Notes
-For common variant (MAF > 0.01) simulation, the distribution of MAF among all variants was estimated from a large-scale biobank. Users could modify the distribution on their specific studies. Please refer to the plink webpage for the format of the distribution file. 
+For common variant (MAF > 0.01) simulations, the distribution of MAF among all variants was estimated from a large-scale biobank. Users can modify the distribution from their specific studies. Please refer to the plink webpage for the format of the distribution file. 
 The ld-score is supposed to be estimated from the same biobank. The script will automatically match the pattern between MAF and ld-score based on the provided empirical data.
-The default parameters are all arbitrarily assigned. Empirical parameters from UK Biobank traits are summarized from three resources including (1) Ben Neale Lab [http://www.nealelab.is/uk-biobank], (2) [Wang, Quanli, et al. bioRxiv 2020](https://www.biorxiv.org/content/10.1101/2020.12.13.422582v1.abstract), and (3) [Lu, Tianyuan, et al. Genetics in Medicine 2020](https://www.nature.com/articles/s41436-020-01007-7). The summarized data is now available in the supplementary tables of our paper.
+The default parameters are all assigned. Empirical parameters from UK Biobank traits are summarized from three resources including (1) Ben Neale Lab [http://www.nealelab.is/uk-biobank], (2) [Wang, Quanli, et al. bioRxiv 2020](https://www.biorxiv.org/content/10.1101/2020.12.13.422582v1.abstract), and (3) [Lu, Tianyuan, et al. Genetics in Medicine 2020](https://www.nature.com/articles/s41436-020-01007-7). The summarized data are now available in the supplementary tables of our paper.
 
 ### Example
 Rscript ${dir_script}/PB-LEV-SCAN_1.0.r \
