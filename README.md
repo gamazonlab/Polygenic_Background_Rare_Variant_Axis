@@ -5,7 +5,7 @@
 
 ## Reference
 
-Contextualizing genetic risk score for disease screening and rare variant discovery. Dan Zhou, Dongmei Yu, Jeremiah M. Scharf, Carol A. Mathews, Lauren McGrath, Edwin Cook, S Hong Lee, Lea K. Davis<sup>§</sup>, Eric R. Gamazon<sup>§</sup>. Nature Communications.
+Contextualizing genetic risk score for disease screening and rare variant discovery. Dan Zhou, Dongmei Yu, Jeremiah M. Scharf, Carol A. Mathews, Lauren McGrath, Edwin Cook, S Hong Lee, Lea K. Davis<sup>§</sup>, Eric R. Gamazon<sup>§</sup>. [Nature Communications](https://doi.org/10.1038/s41467-021-24387-z).
 
 <sup>§</sup>Co-corresponding authors:  Eric R. Gamazon and Lea K. Davis
 
